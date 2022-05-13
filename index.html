@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Este sitio mostrará mi hoja de vida"/>
+    <meta name="keywords" content="MiCV, curriculum vitae, Victor Manuel"/>
+    <title>Mi CV Victor Manuel</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="#"></script>
+    <style type="text/css">
+
+        #contenedor1{
+            /*background-color:rgb(135, 135, 228);*/
+            padding-left: 50px;
+        }
+        #contenedor2{
+            padding-left: 350px;
+            height: 250px;
+        }
+        #cabecera{
+            border: solid 1px;
+            display: flex;
+            flex-wrap: wrap-reverse;
+            overflow: hidden;
+            padding-left: 35%;
+
+        }
+        .redessociales{
+            display: inline-block;
+            flex-wrap: wrap-reverse;
+            overflow: hidden;
+           align-items: center;
+           justify-content: center;
+            
+        }
+        .redessociales ul li a{
+            display: inline-block;
+            background: #333;
+            color: #fff;
+            line-height: 50px;
+            box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .2);
+        }
+        .redessociales ul li{
+            display: inline-block;
+            margin: 0 5px;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+        }
+        
+        .redessociales ul li a :hover{
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4);
+            filter: none;
+        }
+        .redessociales ul li .facebook :hover{
+            background: #3b5999;
+        }
+        .redessociales ul li .instagram :hover{
+            background: #e4405f;
+        }.redessociales ul li .linkedim :hover{
+            background: #0077b5;
+        }
+        .items{
+            /*border: solid 1px;*/
+            float: right;
+        }
+        .textojustificar{
+            text-align: justify;
+            margin-left: 185px;
+            margin-right: 185px;
+        }
+    </style>
+</head>
+<body>
+    <a name="INICIO" />
+    <head>
+        <h1>
+            <!--<img src="img/miFoto.png" width="250" height="250" align="left"  alt="Mi Foto">-->
+            <center><img src="img/Mi curriculum.png" class="img-fluid" width="500" height="250" alt="Título"></center>
+        </h1>
+        <div id="cabecera">
+            <div class="items" id="item1"><ul><a href="#INICIO">INICIO</a></ul></div>
+            <div class="items" id="item2"><ul><a href="#ACERCA DE MI">ACERCA DE MI</a></ul></div>
+            <div class="items" id="item3"><ul><a href="#FORMACION">FORMACION</a></ul></div>
+            <div class="items" id="item4"><ul><a href="#EXPERIENCIA">EXPERIENCIA</a></ul></div>
+            <div class="items" id="item5"><ul><a href="#APTITUDES">APTITUDES</a></ul></div>
+            <div class="items" id="item6"><ul><a href="formulario.html">CONTACTO</a></ul></div>
+        </div>
+    </head>
+    <br><hr>
+    <div id="contenedor1">
+        <img id="imgperfil" src="img/miFoto.png"  class="img-thumbnail" width="250" height="250" align="left"  alt="Mi Foto">
+        <div id="contenedor2">
+            <dl>
+                <dt>
+                    <b>NOMBRES: </b>
+                </dt>
+                <dd>Víctor Manuel</dd>
+            </dl>
+            <dl>
+                <dt>
+                    <b>APELLIDOS: </b>
+                </dt>
+                <dd>Gutiérrez Llanos</dd>
+            </dl>
+            <dl>
+                <dt>
+                    <b>DIRECCIÓN: </b>
+                </dt>
+                <dd>Calle Andres A Cáceres 251 - Urb Vista Alegre</dd>
+            </dl>
+            <dl>
+                <dt>
+                    <b>Distrito: </b>
+                </dt>
+                <dd>Victor Larco Herrera</dd>
+            </dl>
+            <dl>
+                <dt>
+                    <b>TELÉFONO: </b>
+                </dt>
+                <dd>917208220</dd>
+            </dl>
+            <dl>
+                <dt>
+                    <b>E-mail: </b>
+                </dt>
+                <dd>vicmangl.95@gmail.com</dd>
+            </dl>
+        </div>
+    </div>
+    <br><br><br>
+    <hr>
+    <br>
+    <a name="ACERCA DE MI" />
+    <hr>
+    <h2 class="h2" >ACERCA DE MI</h2>
+    <h3 align="center">¡Hola! Soy Víctor Manuel</h3>
+    <p class="textojustificar">Soy una persona organizada y proactiva, me gusta los desafíos más difíciles y participar en nuevos proyectos, además de aportar todos los conocimientos que he adquirido en mi formación académica, pudiéndome desarrollar en el área de desarrollo web. Tengo capacidad para trabajar en equipo e impulsar valores que marquen a las personas como el del compañerismo y la amistad.</p><br>
+    <button><a href="#INICIO">IR A INICIO</a></button>
+    <hr><br>
+    <a name="FORMACION" /><hr>
+    <h2 class="h2" >FORMACIÓN</h2>
+    <ul>
+        <li>COLEGIO SAN GABRIEL</li>
+            <p>Estudios Secundarios</p>
+        <li>CIBERTEC</li>
+            <p>Curso Excel</p>
+        <li>IDEX NUEVA ESPERANZA</li>
+            <p>Carrera Tecnica "Computación e Informática</p>
+        <li>UNIVERSIDAD CESAR VALLEJO</li>
+            <p>Ingeniería de Sistemas</p>
+    </ul>
+    <br>
+    <button><a href="#INICIO">IR A INICIO</a></button>
+    <hr><br><br>
+    <a name="EXPERIENCIA" /><hr>
+    <h2 class="h2">EXPERIENCIA LABORAL</h2>
+    <ol>
+        <li>DELTA ELECTRONICS (Marzo - Julio 2020)</li>
+            <ul>
+                <li>Prácticas pre_profesionales</li>
+                <p>Reparación y Mantenimiento de computadoras, instalación de programas y actualizaciones.</p>
+            </ul><br>
+        <li>Market "FrutpazSAC" (Mayo - Septiembre 2021)</li>
+            <ul>
+                <li>Asistente y soporte</li>
+                <p>Hacer el ingreso y regularización de inventario de productos en el software. Además del ingreso de facturas en una BD</p>
+            </ul><br>
+        <li>HORTIFRUT (Diciembre 2021 - Julio 2022)</li>
+            <ul>
+                <li>Asistente de Información</li>
+                <p>Tener el control exacto de la la producción: Productos salientes, perdidas, y recuperables</p>
+            </ul><br>          
+    </ol>
+    <br>
+    <button><a href="#INICIO">IR A INICIO</a></button>
+    <hr><br><br><br>
+    <a name="APTITUDES" /><hr>
+    <h2 class="h2">APTITUDES</h2>
+    <ul>
+        <li>Microsoft Excel - Avanzado</li><br>
+        <li>Microsoft Word - Avanzado</li><br>
+        <li>Dominio de Power Point</li><br>
+        <li>Dominio de la Suite Adobe</li><br>
+        <li>Desarrollo Web - EdTeam</li>
+    </ul><br><br>
+    <button><a href="#INICIO">IR A INICIO</a></button><hr>
+    <br><br><hr>
+    <footer>
+        <div class="redessociales">
+            <ul >
+                <li><a href="https://www.facebook.com/manuel.gutierrezllanos" class="facebook"><img src="img/face.png" width="50" height="50" alt=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/victor-manuel-gutierrez-llanos-990bba224/" class="linkedin"><img src="img/linkedin.png" width="50" height="50" alt=""><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/victormanuelgll/" class="instagram"><img src="img/instagram.png" width="50" height="50" alt=""><i class="fab instagram"></i></a></li>
+                
+            </ul>
+        </div>
+    </footer>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
